@@ -54,7 +54,7 @@
     </bean>
 
     <tx:annotation-driven transaction-manager="myTransactionManager"/>
-    <mvc:resources mapping="/resources/" location="/resources/**" />
+    <mvc:resources mapping="/resources/**" location="/resources/"/>
 </beans>
 
 
