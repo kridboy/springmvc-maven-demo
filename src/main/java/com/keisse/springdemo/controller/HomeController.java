@@ -10,6 +10,4 @@ public class HomeController {
     public String showIndex(){
         return "index";
     }
-
-
 }
